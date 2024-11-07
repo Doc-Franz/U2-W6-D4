@@ -1,6 +1,6 @@
-@import "../bootstrap/scss/bootstrap-overrides.scss";
-@import "./partials/colors.scss";
-@import "./partials/spaces.scss";
+@import "./partials/bootstrap-overrides";
+@import "./partials/colors";
+@import "./partials/spaces";
 
 nav {
   background-color: $background-color;
@@ -22,4 +22,37 @@ nav {
   margin-top: $margin-blocks;
   border-radius: 10px;
   padding: $padding-eveline;
+  p {
+    color: #cc3178;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-size: 4rem;
+      font-weight: 300;
+      color: #5726c3;
+    }
+    p {
+      margin-bottom: 0;
+      color: rgb(131, 130, 130);
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+}
+
+.title {
+  margin-top: $margin-blocks;
+}
+
+.card-block {
+  display: flex;
+  flex-wrap: wrap;
+  .card {
+    width: 20%;
+    margin-inline: $padding-cards;
+  }
 }
