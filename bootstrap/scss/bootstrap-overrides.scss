@@ -1,0 +1,33 @@
+@import "./bootstrap.scss";
+
+// FONT-SIZES
+
+$h7-font-size: $font-size-base * 0.9 !default;
+$h8-font-size: $font-size-base * 0.8 !default;
+$h9-font-size: $font-size-base * 0.7 !default;
+$h10-font-size: $font-size-base * 0.6 !default;
+
+$font-sizes-custom: (
+  7: $h7-font-size,
+  8: $h8-font-size,
+  9: $h9-font-size,
+  10: $h10-font-size,
+);
+
+$font-sizes-custom: map-merge($font-sizes, $font-sizes-custom);
+
+// BORDER
+
+$border-widths-custom: (
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
+);
+
+$border-widths-custom: map-merge($border-widths, $border-widths-custom);
+
+// CHANGE OF COLORS
+
+$danger-custom: yellow;

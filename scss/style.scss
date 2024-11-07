@@ -1,0 +1,25 @@
+@import "../bootstrap/scss/bootstrap-overrides.scss";
+@import "./partials/colors.scss";
+@import "./partials/spaces.scss";
+
+nav {
+  background-color: $background-color;
+  .container {
+    img {
+      width: 80px;
+      margin-right: 1rem;
+    }
+  }
+
+  .btn {
+    padding-inline: $btn-padding-inline;
+    padding-block: $btn-padding-block;
+  }
+}
+
+.eveline {
+  background-color: $background-color;
+  margin-top: $margin-blocks;
+  border-radius: 10px;
+  padding: $padding-eveline;
+}
